@@ -11,7 +11,7 @@ class ProductController extends Controller {
         $productName = $request->input('productName');
         $productPrice = $request->input('productPrice');
         $productQuantity = $request->input('productQuantity');
-        $productImage = $request->input('image');
+        $productImage = $request->input('productImage');
 
         $product = Product::create([
             'name' => $productName,
